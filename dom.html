@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    <h2>Ej. clase número 7</h2> 
+
+    <div id=source>
+    <p>source en inglés significa:fuente</p>
+    </div>
+    <div id=destination>
+    <p1> destination en inglés significa: destino</p1>
+    </div>
+     
+<script>
+     const s = document.querySelector ('#source');
+     const d = document.querySelector ('#destination');  
+
+     const aux = s.innerHTML;
+    s.innerHTML = d.innerHTML;
+    d.innerHTML = aux;
+    
+</script>
+</body>
+</html>

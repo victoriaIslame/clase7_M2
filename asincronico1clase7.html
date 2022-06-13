@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>las galletas son mi religión </h1>
+    
+    <script>
+       
+    let etiq_h1= document.querySelector('h1');
+    etiq_h1.textContent = 'las galletas son lo pior';
+    etiq_h1.innerHTML= '<p> me gustan las galletas de chocolate </p>';
+    //para crear parrafo nuevo//
+    const parrafonuevo = document.createElement('p');//<p></p>
+    parrafonuevo.innerHTML = 'me gustan las galletas de vainilla';//<p>lalala </p>
+    const etiqueta_body =document.querySelector('body');
+    etiqueta_body.appendChild(parrafonuevo);
+
+    /*1. Creá un archivo HTML que, dentro de su <body> solo tenga un título <h1>.
+2. Por consola, cambiá el texto del título.
+● Para cambiar el texto del título, usá la Propiedad textContent.
+3. Por consola, cambiá el título por un párrafo con un texto a elección.
+● Para cambiar el título por un párrafo, usá la Propiedad innerHTML.
+4. Por consola, agregá otro párrafo al <body> con un texto a elección.
+● Para agregar otro párrafo al <body>, usá appendChild.*/
+
+    </script>      
+</body>
+
+</html>
